@@ -2,12 +2,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Event Management</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
-   <h5></h5> 
-Event Management System
+    <header class="bg-white border-bottom">
+        <nav class="container py-3 d-flex justify-content-between align-items-center">
+            <span class="brand">EventEase</span>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#events">Events</a>
+                <a href="#contact">Contact</a>
+                <button class="ms-2">Create Event</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Event Management System</h1>
+                <p>Plan, promote, and manage events in one simple dashboard.</p>
+                <button>Get Started</button>
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <div class="container grid">
+                <div class="card">
+                    <h3>Event Scheduling</h3>
+                    <p>Create agendas, speakers, and timelines with ease.</p>
+                </div>
+                <div class="card">
+                    <h3>Attendee Management</h3>
+                    <p>Track registrations, check-ins, and engagement.</p>
+                </div>
+                <div class="card">
+                    <h3>Reports</h3>
+                    <p>Measure success with real-time insights.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="section alt">
+            <div class="container">
+                <h2>Upcoming Events</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Tech Meetup</h3>
+                        <p>Apr 18 • 10:00 AM • City Hall</p>
+                        <button>View Details</button>
+                    </div>
+                    <div class="card">
+                        <h3>Startup Pitch</h3>
+                        <p>May 02 • 2:00 PM • Innovation Hub</p>
+                        <button>View Details</button>
+                    </div>
+                    <div class="card">
+                        <h3>Design Workshop</h3>
+                        <p>May 15 • 11:00 AM • Studio 12</p>
+                        <button>View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container cta">
+                <h2>Ready to host your next event?</h2>
+                <p>Reach out to our team to get started today.</p>
+                <button>Contact Us</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <small>© 2025 EventEase. All rights reserved.</small>
+        </div>
+    </footer>
 </body>
 </html>

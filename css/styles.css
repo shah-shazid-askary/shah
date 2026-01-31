@@ -36,3 +36,55 @@ button {
 button:hover {
     background-color: #0052a3;
 }
+
+.brand {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.nav-links a {
+    margin-right: 1rem;
+}
+
+.hero {
+    background: linear-gradient(135deg, #e8f0ff, #ffffff);
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.section {
+    padding: 2.5rem 0;
+}
+
+.section.alt {
+    background-color: #ffffff;
+}
+
+.container {
+    width: min(1100px, 92%);
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card {
+    background: white;
+    padding: 1.25rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.cta {
+    text-align: center;
+}
+
+.footer {
+    padding: 1.5rem 0;
+    text-align: center;
+    background: #ffffff;
+    border-top: 1px solid #e6e6e6;
+}
